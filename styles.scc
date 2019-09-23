@@ -1,0 +1,17 @@
+body
+{
+	background: rgb(52, 175, 169);	
+}
+button
+{
+    background-color: #ffebcd;
+    height: 30%;
+    width: 30%;
+    
+}
+
+button:hover
+{
+    background-color: white;
+    transition-delay: 0.9ms;
+}
