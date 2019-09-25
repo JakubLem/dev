@@ -11,7 +11,7 @@
             }
 			body
 			{
-				background-color: #666699;
+				background-color: #7c87bb;
                 display: flex;
                 margin: 0 !important;
 
@@ -36,9 +36,8 @@
             }
             .logo
             {
-                width: 450px;
+                width: 70%;
                 font-size: 48px;
-                border: 1px solid #ffffff;
                 margin-left: auto;
                 margin-right: auto;
                 font-family: 'Courier New', Courier, monospace;
@@ -61,5 +60,15 @@
                 margin-right: auto;
                 text-align: justify;
             }
-           
+           .socials
+           {
+               width: 100%;
+               text-align: center;
+           }
+           .socialdivs
+           {
+               width: 80%;
+               margin-left: auto;
+               margin-right: auto;
+           }
            
