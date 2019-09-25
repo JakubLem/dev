@@ -1,4 +1,4 @@
-@keyframes an1
+            @keyframes an1
             {
                 from
                 {
@@ -9,6 +9,48 @@
                     opacity: 1;
                 }
             }
+            @keyframes ananim
+            {
+                from
+                {
+                    width: 5%;
+                    float: left;
+                    margin-top: 2%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    margin-bottom: 2%;
+                }
+                to
+                {
+                    width: 7%;
+                    margin-left: 9%;
+                    margin-right: 0;
+                    margin-top: 0;
+                    margin-bottom: 0%;
+                }
+           
+            }
+            @keyframes ananim2
+            {
+                from
+                {
+                    width: 7%;
+                    margin-left: 9%;
+                    margin-right: 0;
+                    margin-top: 0;
+                }
+                to
+                {
+                    width: 5%;
+                    float: left;
+                    margin-top: 2%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    margin-bottom: 2%;
+                }
+           
+            }
+                         
 			body
 			{
 				background-color: #7c87bb;
@@ -51,7 +93,6 @@
                 text-align: center;
                 border-top: 1px solid black;
                 border-bottom: 1px solid black;;
-                height: 40px;
             }
             .content
             {
@@ -71,4 +112,27 @@
                margin-left: auto;
                margin-right: auto;
            }
+         .anim
+         {
+            animation-name: ananim2;
+            animation-duration: 0.3s;
+            width: 5%;
+            float: left;
+            margin-top: 2%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+         }
+         .anim:hover
+         {
+            animation-name: ananim;
+            animation-duration: 0.3s;
+            
+            width: 7%;
+            margin-left: 9%;
+            margin-bottom: 0%;
+            margin-right: 0;
+            margin-top: 0;
+         }
+
            
