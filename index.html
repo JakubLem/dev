@@ -1,136 +1,21 @@
 <!DOCTYPE html>
 <HTML>
 	<HEAD>
-		<title>Jakub Lemiesiewicz - HomePage</title>
+        <title>Jakub Lemiesiewicz - HomePage</title>
+        <link href ="styles.css" rel="stylesheet"/>
 		<meta charset="utf-8"/>
-			<style>
-            @keyframes appear 
-            {
-                from
-                {
-                    opacity: 0;
-                }
-                to
-                {
-                    opacity: 1;
-                }
-            }
-			body
-			{
-				background-color: #666699;
-                display: flex;
-                left: 17%;
-
-			}
-            #center
-            {
-                
-                margin: 0 auto;
-                position: absolute;
-            }
-            .k
-            {
-                width: 200px;
-                height: 200px;
-                position: fixed;
-                left: 37%;
-                margin-left: 50%;
-                top: 35%;
-                animation-name: appear;
-                animation-duration: 10s;
-                display: flex;
-                font-size: 55px;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                text-align: center;
-                margin-left: 50%;
-            }
-            .b
-            {
-                animation-name: appear; 
-                animation-duration: 16s;
-                width: 700px;
-                height: 200px;
-                top: 100%;
-                left: 28%;
-                font-size: 20px;
-                position: absolute;
-            }
-            .tabela
-            {
-                border-collapse: separate;
-                border-color: black;
-                border: 3mm ridge;
-                table-layout: auto;
-                caption-side: bottom;
-            }
-            </style>
-            
-			
 	</HEAD>
 	<body>
-        <div class="k" id="center">Zastosowanie<br>Znacznika<br>pre</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="b" id="center">
-            Najpierw trochę teorii...
-            <br> 
-            Znacznik pre służy do interpretacji znaków białych w kodzie HTML
-            <br>
-            Są to spacje, tabulatory i znak do końca linii  
-            <br><br><br>
-            Spójrzmy na przykład poniżej
-            <br><br>
-            <img src="page1.PNG" width="80%" height=""/>
-            <br><br>
-            Efekt:<br>--------------------------------------------------------------------------------------<br>
-            Jestem                      uczniem technikum
+        <div class="wrapper">
+            <div class="header">
+                <div class="logo">
+                    Jakub Lemiesiewicz <br> Strona domowa
+                </div>
+            </div>
+            <div class="nav">
 
-            <br>
-            <br>
-
-            <pre>Jestem                              uczniem technikum</pre>
-            --------------------------------------------------------------------------------------<br>
-            <br><br>
-            Jak widzimy bez znacznika "pre" przeglądarka interpretując kod usuwa domyślnie kilkadziesiąt spacji
-            <br>
-            zostawiając tylko jedną.
-            <br>
-            <br>
-            Atrybuty znacznika
-            <table class="tabela">
-                <tr>
-                    <td>
-                        Nazwa
-                    </td>
-                    <td>
-                        Opis
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Opis
-                    </td>
-                    <td>
-    
-                    </td>
-                </tr>
-                <tr>
-                        <td>
-        
-                        </td>
-                        <td>
-        
-                        </td>
-                </tr>            
-            
-            </table>
-
-
-
+            </div>
+            <div class="content"></div>
         </div>
-		
 	</body>
 </HTML>
